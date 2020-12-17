@@ -161,6 +161,39 @@ code {
 	right: 13%;
 }
 
+.t10 {
+	position: absolute;
+	top: 65%;
+	left: 50%;
+	height: 40px;
+}
+
+.t11 {
+	position: absolute;
+	top: 28%;
+	right: 42%;
+}
+
+.t12 {
+	position: absolute;
+	top: 15%;
+	right: 38%;
+	height: 30px;
+}
+
+.t13 {
+	position: absolute;
+	top: 45%;
+	right: 37%;
+	height: 28px;
+}
+
+.t13 {
+	position: absolute;
+	top: 85%;
+	right: 28%;
+}
+
 .arrow {
 	height: 10px;
 }

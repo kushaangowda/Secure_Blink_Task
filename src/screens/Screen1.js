@@ -10,6 +10,11 @@ import t6 from "../assets/Path 37489.svg";
 import t7 from "../assets/Path 37488.svg";
 import t8 from "../assets/Path 37502.svg";
 import t9 from "../assets/Path 37482.svg";
+import t10 from "../assets/Path 37484.svg";
+import t11 from "../assets/Path 37485.svg";
+import t12 from "../assets/Path 37486.svg";
+import t13 from "../assets/Path 37458.svg";
+import t14 from "../assets/Path 37483.svg";
 import ellipse from "../assets/Ellipse 223.svg";
 import Text1 from "./components1/text1";
 
@@ -29,6 +34,11 @@ function Screen1() {
 			<img src={t7} className="t7" />
 			<img src={t8} className="t8" />
 			<img src={t9} className="t9" />
+			<img src={t10} className="t10" />
+			<img src={t11} className="t11" />
+			<img src={t12} className="t12" />
+			<img src={t13} className="t13" />
+			<img src={t14} className="t14" />
 		</div>
 	);
 }
