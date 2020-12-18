@@ -431,7 +431,7 @@ button {
 
 .Screen5 {
 	background-color: #fff;
-	height: 121vh;
+	height: 101vh;
 	width: 100%;
 }
 
@@ -486,4 +486,79 @@ button {
 
 .i2 {
 	background-color: #0e77ff;
+}
+
+.Screen6 {
+	background-color: #fff;
+	height: 84vh;
+}
+
+.profilePic {
+	width: 48vw;
+	height: 100%;
+	background-color: #0e77ff;
+	overflow: hidden;
+}
+
+.lady {
+	height: 350px;
+	border-radius: 50%;
+	padding: 45px;
+	background-color: #fff;
+	margin: auto;
+	position: relative;
+	top: 16%;
+	left: 16%;
+}
+
+.dots {
+	position: relative;
+	top: -40%;
+	right: -20%;
+}
+
+.Text6 {
+	position: relative;
+	top: -90%;
+	left: 50%;
+	width: 40%;
+	padding: 30px;
+}
+
+.selected {
+	font-family: Poppins;
+	font-weight: 600;
+	color: #0e77ff;
+	position: relative;
+	top: -30%;
+}
+
+.a6 {
+	height: 30px;
+}
+
+.heading6 {
+	font-family: Poppins;
+	font-weight: 600;
+	font-size: 30px;
+	margin-top: -20px;
+	line-height: 40px;
+}
+
+.desc6 {
+	font-weight: 300;
+	font-family: Poppins;
+	width: 80%;
+	font-size: 14px;
+}
+
+.i61 {
+	height: 60px;
+	padding-top: 10px;
+}
+
+.a61 {
+	display: block;
+	height: 40px;
+	padding-top: 30px;
 }
