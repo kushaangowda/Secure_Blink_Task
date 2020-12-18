@@ -644,3 +644,43 @@ button {
 	justify-content: center;
 	align-items: center;
 }
+
+.Screen8 {
+	height: 125vh;
+	width: 100%;
+	background-color: #fff;
+	margin-top: -30px;
+}
+
+.ft {
+	position: relative;
+	left: 17%;
+	height: 150px;
+	top: -30%;
+}
+
+.base {
+	position: relative;
+	width: 100%;
+	z-index: 20;
+}
+
+.caller {
+	position: relative;
+	height: 400px;
+	top: 62%;
+	left: -12%;
+}
+
+.Form8 {
+	position: absolute;
+	z-index: 100;
+	width: 35%;
+	height: 75%;
+	background-color: #fff;
+	left: 50%;
+	box-shadow: 0 4px 8px 0 rgba(14, 119, 255, 0.2), 0 6px 20px 0 rgba(14, 119, 255, 0.19);
+	padding-left: 80px;
+	padding-top: 40px;
+	font-family: Poppins;
+}

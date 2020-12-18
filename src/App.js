@@ -6,6 +6,7 @@ import Screen4 from "./screens/Screen4";
 import Screen5 from "./screens/Screen5";
 import Screen6 from "./screens/Screen6";
 import Screen7 from "./screens/Screen7";
+import Screen8 from "./screens/Screen8";
 
 function App() {
 	return (
@@ -17,6 +18,7 @@ function App() {
 			<Screen5 />
 			<Screen6 />
 			<Screen7 />
+			<Screen8 />
 		</div>
 	);
 }
