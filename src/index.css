@@ -288,7 +288,6 @@ button {
 
 .Screen3 {
 	height: 80vh;
-	margin-bottom: 100px;
 }
 
 .part1 {
@@ -297,6 +296,7 @@ button {
 	background-color: #fff;
 	height: 80vh;
 	margin-top: -20px;
+	padding-bottom: 40px;
 }
 
 .Text3 {
@@ -360,4 +360,72 @@ button {
 	position: relative;
 	top: -32%;
 	padding: 5px;
+}
+
+.Screen4 {
+	background-color: #fff;
+	height: 120vh;
+	position: absolute;
+	width: 100%;
+	padding-top: 100px;
+}
+
+.heading4 {
+	text-align: center;
+	font-family: Poppins;
+	font-weight: 600;
+	font-size: 35px;
+}
+
+.desc4 {
+	text-align: center;
+	width: 50%;
+	margin: auto;
+	margin-top: -30px;
+}
+
+.Card4 {
+	margin: auto;
+	width: 80%;
+}
+
+.card41 {
+	display: inline-block;
+	width: 30%;
+	padding: 10px;
+	margin: 10px;
+	margin-top: 150px;
+}
+
+.card41:hover {
+	box-shadow: 0 4px 8px 0 rgba(14, 119, 255, 0.3), 0 6px 20px 0 rgba(14, 119, 255, 0.29);
+}
+
+.card41:hover .btn4 {
+	color: #fff;
+	background-color: #0e77ff;
+}
+
+.heading41 {
+	font-family: Poppins;
+	font-weight: 600;
+	font-size: 30px;
+	margin-bottom: 0;
+}
+
+.btn4 {
+	color: #0e77ff;
+	background-color: #16b2ff17;
+	padding: 10px 20px 10px 20px;
+	border-radius: 30px;
+	border: none;
+	font-size: 15px;
+}
+
+.t41 {
+	height: 40vh;
+	position: relative;
+	left: -5%;
+	top: 10%;
+	z-index: 2;
 }
