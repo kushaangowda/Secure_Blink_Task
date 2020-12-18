@@ -16,7 +16,7 @@ function Text1() {
 				<br /> and cloud-architectures.
 			</p>
 			<button className="button1">
-				Get Started <img src={arrow} className="arrow" />
+				Get Started &nbsp; <img src={arrow} className="arrow" />
 				<img src={arrow} className="arrow" />
 			</button>
 		</div>

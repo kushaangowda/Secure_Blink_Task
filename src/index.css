@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Mulish&family=Ovo&display=swap");
 
 body {
@@ -196,4 +196,83 @@ code {
 
 .arrow {
 	height: 10px;
+}
+
+.Screen2 {
+	position: relative;
+	z-index: 2;
+	background-color: #fff;
+}
+
+.g1 {
+	position: relative;
+	top: 0px;
+	left: -40%;
+	height: 150vh;
+}
+
+.g2 {
+	position: absolute;
+	top: 0px;
+	right: -5%;
+}
+
+.Text2 {
+	position: absolute;
+	top: 30%;
+	left: 55%;
+	width: 30%;
+	font-family: Poppins;
+}
+
+.a2 {
+	height: 30px;
+}
+
+.text2stuff {
+	color: #0e77ff;
+	font-weight: bold;
+}
+
+.heading2 {
+	font-size: 30px;
+	font-weight: 600;
+	margin-top: -10px;
+}
+
+.aboutus {
+	position: relative;
+	top: -10px;
+	left: 5px;
+}
+
+.desc2 {
+	opacity: 0.8;
+	font-size: 14px;
+}
+
+.desc1 {
+	font-weight: 400;
+}
+
+.btn2 {
+	color: #0e77ff;
+	border: solid 1px #0e77ff;
+	border-radius: 30px;
+	padding: 10px 20px 10px 20px;
+	font-weight: 400;
+}
+.arrow21 {
+	padding-left: 5px;
+}
+
+.arrow2,
+.arrow21 {
+	height: 10px;
+}
+
+.g3 {
+	position: absolute;
+	top: 51%;
+	right: -16%;
 }
