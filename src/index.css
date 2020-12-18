@@ -329,8 +329,8 @@ button {
 
 .Card3 {
 	position: relative;
-	width: 40%;
-	right: -60%;
+	width: 60%;
+	right: -55%;
 	top: -36%;
 	background-color: #fff;
 	height: 48vh;
@@ -349,7 +349,7 @@ button {
 }
 
 .desc31 {
-	width: 80%;
+	width: 55%;
 }
 
 .tick {
