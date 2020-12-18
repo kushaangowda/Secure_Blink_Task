@@ -1,6 +1,5 @@
 import React from "react";
 import Card4 from "./components4/card4";
-import t41 from "../assets/Group 35700.svg";
 
 function Screen4() {
 	return (
@@ -11,7 +10,6 @@ function Screen4() {
 				habitant.
 			</p>
 			<Card4 />
-			<img src={t41} className="t41" />
 		</div>
 	);
 }

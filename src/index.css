@@ -365,7 +365,6 @@ button {
 .Screen4 {
 	background-color: #fff;
 	height: 120vh;
-	position: absolute;
 	width: 100%;
 	padding-top: 100px;
 }
@@ -426,6 +425,65 @@ button {
 	height: 40vh;
 	position: relative;
 	left: -5%;
-	top: 10%;
+	top: -20%;
 	z-index: 2;
+}
+
+.Screen5 {
+	background-color: #fff;
+	height: 121vh;
+	width: 100%;
+}
+
+.Screen5 .heading4 {
+	margin-top: -250px;
+}
+
+.dept {
+	width: 30%;
+	margin: auto;
+	padding: 10px;
+	margin-top: 40px;
+	border-radius: 30px;
+	box-shadow: 0 4px 8px 0 rgba(14, 119, 255, 0.2), 0 6px 20px 0 rgba(14, 119, 255, 0.19);
+	text-align: center;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.deptlinks {
+	padding: 5px 25px 5px 25px;
+	margin: auto;
+	text-decoration: none;
+	color: black;
+	display: inline-block;
+	width: 30%;
+}
+
+.devlink {
+	border-right: solid 2px gray;
+	border-left: solid 2px gray;
+	color: #0e77ff;
+}
+
+.iconslist {
+	width: 70%;
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	margin: auto;
+	margin-top: 80px;
+}
+
+.icons {
+	border: 1px solid #0e77ff;
+	margin: 20px;
+	padding: 10px;
+	border-radius: 5px;
+	width: 80px;
+	height: 80px;
+}
+
+.i2 {
+	background-color: #0e77ff;
 }
