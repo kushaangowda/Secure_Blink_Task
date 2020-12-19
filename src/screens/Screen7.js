@@ -5,7 +5,7 @@ import Card7 from "./components7/card7";
 
 function Screen7() {
 	return (
-		<div className="Screen7">
+		<div className="Screen7" id="caseStudies">
 			<img src={g71} className="g71" />
 			<p className="heading4 h7">Case Studies</p>
 			<p className="desc4 d7">

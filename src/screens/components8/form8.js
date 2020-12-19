@@ -3,7 +3,7 @@ import wharr from "../../assets/arrow-down-sign-to-navigate-8.svg";
 
 function Form8() {
 	return (
-		<div className="Form8">
+		<div className="Form8" id="contact">
 			<h1>Send Us message</h1>
 			<form>
 				<p>Your Email*</p>

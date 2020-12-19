@@ -7,22 +7,22 @@ function NavBar() {
 				Logo
 			</a>
 			<div className="navlinks">
-				<a href="#" className="links">
+				<a href="#about" className="links">
 					About
 				</a>
-				<a href="#" className="links">
+				<a href="#services" className="links">
 					Services
 				</a>
-				<a href="#" className="links">
+				<a href="#caseStudies" className="links">
 					Case Studies
 				</a>
-				<a href="#" className="links">
+				<a href="#testimonials" className="links">
 					Testimonials
 				</a>
-				<a href="#" className="links">
+				<a href="#contact" className="links">
 					Contact
 				</a>
-				<a href="#" className="links active">
+				<a href="#" className="links">
 					Login
 				</a>
 			</div>

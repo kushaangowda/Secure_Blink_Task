@@ -4,7 +4,7 @@ import arrow2 from "../../assets/arrow-down-sign-to-navigate.svg";
 
 function Text2() {
 	return (
-		<div className="Text2">
+		<div className="Text2" id="about">
 			<p className="text2stuff">
 				<img src={a2} className="a2" />
 				<span className="aboutus">ABOUT US</span>

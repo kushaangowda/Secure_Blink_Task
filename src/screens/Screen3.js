@@ -4,7 +4,7 @@ import Card3 from "./components3/card3";
 
 function Screen3() {
 	return (
-		<div className="Screen3">
+		<div className="Screen3" id="services">
 			<div className="part1"></div>
 			<Text3 />
 			<Card3 />

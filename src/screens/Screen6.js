@@ -5,7 +5,7 @@ import Text6 from "./components6/text6";
 
 function Screen6() {
 	return (
-		<div className="Screen6">
+		<div className="Screen6" id="testimonials">
 			<div className="profilePic">
 				<img src={lady} className="lady" />
 				<img src={dots} className="dots" />
