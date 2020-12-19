@@ -11,7 +11,7 @@ function Text3() {
 			<p className="heading3">Transforming your ideas into Reality</p>
 			<button className="link3">Web Development</button>
 			<button className="link3">Mobile Development</button>
-			<button className="link3 activelink3">UI/UX Designing</button>
+			<button className="link3">UI/UX Designing</button>
 			<button className="link3">Branding</button>
 			<button className="link3">Cloud Technology</button>
 		</div>
