@@ -567,6 +567,7 @@ button {
 .Screen7 {
 	background-color: #fff;
 	margin-top: -25px;
+	padding-bottom: 300px;
 }
 
 .g71 {
@@ -643,19 +644,22 @@ button {
 }
 
 .Screen8 {
-	height: 125vh;
-	width: 100%;
+	position: relative;
+	height: 160vh;
 	background-color: #fff;
-	margin-top: -30px;
+	background-image: url("./assets/final\ BG.png");
+	background-repeat: no-repeat;
+	background-size: 100vw 110vh;
+	background-position: right bottom;
 }
 
 .ft {
 	position: relative;
 	left: 17%;
 	height: 150px;
-	top: -30%;
+	top: -10%;
 }
-
+/* 
 .base {
 	position: relative;
 	width: 100%;
@@ -663,27 +667,27 @@ button {
 }
 
 .caller {
-	position: relative;
 	height: 450px;
-	top: 62%;
-	left: -12%;
-}
+} */
 
 .Form8 {
 	position: absolute;
-	z-index: 100;
-	width: 35%;
-	height: 75%;
+	bottom: 35vh;
+	right: 10vw;
+	width: 30%;
 	background-color: #fff;
-	left: 42%;
 	box-shadow: 0 4px 8px 0 rgba(14, 119, 255, 0.2), 0 6px 20px 0 rgba(14, 119, 255, 0.19);
-	padding-left: 40px;
+	padding: 80px;
+	padding-top: 30px;
 	font-family: Poppins;
-	margin-top: -40px;
 }
 
 form {
-	width: 80%;
+	width: 100%;
+}
+
+input {
+	margin-bottom: 20px;
 }
 
 input[type="text"] {
@@ -691,12 +695,6 @@ input[type="text"] {
 	width: 100%;
 	border-bottom: 1px solid black;
 	color: black;
-}
-
-input[type="checkbox"] {
-	height: 25px;
-	width: 25px;
-	border-radius: 5px;
 }
 
 form p {

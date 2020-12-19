@@ -14,11 +14,14 @@ function Form8() {
 				<input type="text" />
 				<p>Subject</p>
 				<input type="text" />
-				<p>Your Message</p>
+				<p>
+					Your Message
+					<br />
+					<br />
+				</p>
 				<input type="text" />
 				<br />
 				<br />
-				<input type="checkbox" id="c" value="a"></input>
 				<span>By sending this message, you confirm that you have read and agreed to our privacy-policy.</span>
 				<br />
 				<br />
