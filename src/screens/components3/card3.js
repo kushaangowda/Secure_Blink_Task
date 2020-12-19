@@ -2,11 +2,11 @@ import React from "react";
 import icon3 from "../../assets/Group 35621.svg";
 import tick from "../../assets/Group 35604.svg";
 
-function Card3() {
+function Card3({ title }) {
 	return (
 		<div className="Card3">
 			<img src={icon3} className="icon3" />
-			<span class="heading31">UI/UX Designing</span>
+			<span class="heading31">{title}</span>
 			<p className="desc31">
 				Lorem ipsum dolor sit amet, conse ctetur adipi scing elit. Aliq uam ex odio, is the turpis accu msan congue euisque blandit dui Pelle ntesque
 				habitant.
