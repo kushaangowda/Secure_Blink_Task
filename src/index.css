@@ -715,3 +715,60 @@ form button {
 	margin: 5px;
 	font-size: 18px;
 }
+
+.footer {
+	position: absolute;
+	bottom: 1vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	width: 90%;
+	margin: auto;
+	margin-left: 5vw;
+	color: white;
+}
+
+.col1 {
+	width: 30%;
+	margin: 10px;
+	font-weight: 300;
+	margin-right: 120px;
+	margin-top: 10vh;
+}
+
+.socicon {
+	height: 25px;
+	margin: 4px;
+}
+
+.col2,
+.col3,
+.col4 {
+	width: 20%;
+	margin: 20px;
+}
+
+.footerHeading {
+	font-weight: 600;
+}
+
+.footerList {
+	font-weight: 300;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.underline {
+	width: 48px;
+	height: 4px;
+	background-color: #21b3ff;
+}
+
+.conicon {
+	height: 18px;
+}
+
+.conText {
+	margin-left: 10px;
+}
