@@ -288,7 +288,6 @@ button {
 }
 
 .Screen3 {
-	height: 80vh;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -366,9 +365,8 @@ button {
 
 .Screen4 {
 	background-color: #fff;
-	height: 100vh;
-	width: 100%;
 	padding-top: 100px;
+	padding-bottom: 100px;
 }
 
 .heading4 {
@@ -385,9 +383,11 @@ button {
 }
 
 .Card4 {
-	margin: auto;
 	width: 80%;
-	height: 40vh;
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
 }
 
 .card41 {
@@ -426,7 +426,6 @@ button {
 	height: 40vh;
 	position: relative;
 	left: -5%;
-	top: -20%;
 	z-index: 2;
 }
 
@@ -459,6 +458,10 @@ button {
 	color: black;
 	display: inline-block;
 	width: 30%;
+}
+
+.deptlinks:hover {
+	color: #0e77ff;
 }
 
 .devlink {
