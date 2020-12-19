@@ -289,11 +289,13 @@ button {
 
 .Screen3 {
 	height: 80vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
 }
 
 .part1 {
-	position: absolute;
-	width: 80%;
+	width: 80vw;
 	background-color: #fff;
 	height: 80vh;
 	margin-top: -20px;
@@ -301,10 +303,9 @@ button {
 }
 
 .Text3 {
-	position: relative;
-	top: 25%;
-	left: 10%;
-	width: 25%;
+	width: 30%;
+	margin-left: 10vw;
+	margin-top: 20vh;
 }
 
 .link3 {
@@ -329,15 +330,15 @@ button {
 }
 
 .Card3 {
-	position: relative;
-	width: 60%;
-	right: -55%;
-	top: -36%;
+	position: absolute;
+	right: 0px;
+	width: 40%;
 	background-color: #fff;
-	height: 48vh;
+	height: 55vh;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	padding: 30px;
 	padding-top: 20px;
+	margin-top: 10vh;
 }
 
 .heading31 {
