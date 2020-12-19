@@ -6,8 +6,10 @@ import Text2 from "./components2/text2";
 
 function Screen2() {
 	return (
-		<div className="Screen2">
-			<img src={g1} className="g1" />
+		<div className="Screen2" id="about">
+			<div className="lhs">
+				<img src={g1} className="g1" />
+			</div>
 			<img src={g2} className="g2" />
 			<Text2 />
 			<img src={g3} className="g3" />

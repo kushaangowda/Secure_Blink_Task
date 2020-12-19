@@ -205,30 +205,32 @@ button {
 }
 
 .Screen2 {
-	position: relative;
 	z-index: 2;
 	background-color: #fff;
 	padding-bottom: 200px;
+	display: flex;
+	flex-direction: row;
+}
+
+.lhs {
+	width: 50vw;
 }
 
 .g1 {
-	position: relative;
-	top: 0px;
-	left: -40%;
 	height: 150vh;
+	position: relative;
+	left: -50vw;
 }
 
 .g2 {
 	position: absolute;
-	top: 0px;
 	right: -5%;
 }
 
 .Text2 {
-	position: absolute;
-	top: 30%;
-	left: 55%;
 	width: 30%;
+	margin-top: 50vh;
+	margin-left: 80px;
 }
 
 .a2 {
@@ -281,8 +283,8 @@ button {
 
 .g3 {
 	position: absolute;
-	top: 51%;
 	right: -16%;
+	margin-top: 90vh;
 }
 
 .Screen3 {
